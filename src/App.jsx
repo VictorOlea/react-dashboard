@@ -1,5 +1,6 @@
 import "./App.css";
 import BarReactEchart from "./components/BarReactEchart";
+import LineReactEchart from "./components/LineReactEchart";
 import PieReactEchart from "./components/PieReactEchart";
 import StrokeAnimation from "./components/StrokeAnimation";
 
@@ -32,6 +33,12 @@ function App() {
           eveniet debitis! Dicta quo recusandae, consectetur numquam vero
           nostrum quos in voluptate?
         </p>
+      </div>
+      <div className="container">
+        <LineReactEchart />
+      </div>
+      <div>
+        <h3>Developed by Víctor Olea</h3>
       </div>
     </>
   );
