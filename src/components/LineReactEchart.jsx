@@ -48,6 +48,7 @@ export default function LineReactEchart() {
         data: [320, 432, 401, 434, 690, 630, 820, 420, 532, 401, 434, 690],
         type: "line",
         smooth: true,
+        symbolSize: 8,
         lineStyle: {
           color: "rgba(255, 255, 255, 0.87)",
           width: 4,
