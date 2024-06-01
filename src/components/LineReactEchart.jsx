@@ -6,7 +6,7 @@ export default function LineReactEchart() {
   const lineChart = {
     title: {
       text: "Line Chart",
-      subtext: "Data Anual",
+      subtext: "Data Annual",
       left: "center",
       textStyle: {
         color: "rgba(255, 255, 255, 0.87)",
